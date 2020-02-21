@@ -1,0 +1,19 @@
+.status_bar {
+    position: relative;
+    margin: 1em 1em 2em 1em;
+}
+
+.status_bar_colom {
+    display: inline-block;
+}
+
+.status_bar_timer::before, .status_bar_volume::before,
+.status_bar_wifi::before, .status_bar_battery::before{
+    content: "\f017";
+  }
+
+.status_bar_icons {
+    position: absolute;
+    top: 0px;
+    right: 3%;
+}

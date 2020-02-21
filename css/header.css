@@ -1,0 +1,19 @@
+.header {
+    margin: 0px 1em 0px 1em;
+    position: relative;
+}
+
+.header_colom {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.header_search::before, .header_setting::before{
+    content: "\f017";
+  }
+
+.header_icons {
+    position: absolute;
+    top: 0px;
+    right: 3%;
+}
