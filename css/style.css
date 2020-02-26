@@ -1,0 +1,76 @@
+body {
+    padding: 10px 20px;
+    color: #020202;
+    line-height: 1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    margin-bottom: 2em;
+}
+
+.header_colom {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.header_search::before, .header_setting::before,
+.status_bar_timer::before, .status_bar_volume::before,
+.status_bar_wifi::before, .status_bar_battery::before,
+.nav_icon_friends::before, .nav_icon_chat::before,
+.nav_icon_search::before, .nav_icon_more::before{
+    content: "\f017";
+}
+
+.icons {
+    position: absolute;
+    top: 0px;
+    right: 3%;
+}
+
+.status_bar {
+    margin-bottom: 2em;
+}
+
+.status_bar_colom {
+    display: inline-block;
+}
+
+.rel {
+    position: relative;
+}
+
+.nav {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    padding: 20px 50px;
+    width: 100%;
+    border-top : 1px solid #f7f7f7;
+    background-color: #fcfcfc;
+}
+
+@keyframes showNavBar {
+    from {
+      transform: translateY(80px);
+    }
+    to {
+      transform: none;
+    }
+  }
+  
+
+.nav {
+    transform: translateY(80px);
+    animation: showNavBar 0.5s ease-out forwards;
+    animation-delay: 0.5s;
+}
+
+.nav .nav_list {
+    display: flex;
+    justify-content: space-between;
+}

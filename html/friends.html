@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,15 +9,15 @@
 
     <link rel="stylesheet" href="../css/mobile.css">
     <link rel="stylesheet" href="../css/init.css">
-    <link rel="stylesheet" href="../css/status.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/friend.css">
 </head>
+
 <body>
-    <div class="status_bar">
+    <div class="status_bar rel">
         <div class="status_bar_colom"><span id="now_time">22:22</span></div>
         <div class="status_bar_colom">
-            <div class="status_bar_icons">
+            <div class="icons">
                 <i class="status_bar_timer"></i>
                 <i class="status_bar_volume"></i>
                 <i class="status_bar_wifi"></i>
@@ -27,13 +28,13 @@
         </div>
     </div>
 
-    <header class="header">
+    <header class="header rel">
         <div class="header_colom">
             <h1 class="header_title">Friends</h1>
         </div>
 
         <div class="header_colom">
-            <div class="header_icons">
+            <div class="icons">
                 <i class="header_search"></i>
                 <i class="header_setting"></i>
             </div>
@@ -43,7 +44,7 @@
     <main>
         <div class="profile">
             <div class="profile_colom">
-                <img src="../img/cho.jpeg" id="profile_img" alt="profile">
+                <img src="../img/cho.jpeg" class="profile_img my_img" alt="profile">
             </div>
 
             <div class="profile_colom">
@@ -53,11 +54,48 @@
                 </div>
             </div>
         </div>
+
+        <div class="plus_friend">
+            <h5 class="friends_title">Plus Friend</h5>
+
+            <div class="plus_colom">
+                <img src="../img/cho.jpeg" class="profile_img" alt="plus_profile">
+            </div>
+
+            <div class="friends_content"><span>Plus Friend</span></div>
+        </div>
+
+        <div class="friends_list">
+            <h5 class="friends_title">Friends 1</h5>
+
+            <div class="friends_colom">
+                <img src="../img/cho.jpeg" alt="profile" class="profile_img">
+            </div>
+
+            <div class="friends_colom">
+                <div class="friends_text">
+                    <span class="profile_name">박초롱</span>
+                    <span class="profile_text">와아아아</span>
+                </div>
+                <div class="profile_music">
+                    <span>가나다라 릴리리리 ▶️</span>
+                </div>
+            </div>
+        </div>
     </main>
 
+    <nav class="nav">
+        <ul class="nav_list">
+            <li><a href="../html/friends.html"><i class="nav_icon_friends"></i></a></li>
+            <li><a href="../html/chat.html"><i class="nav_icon_chat"></i></a></li>
+            <li><a href="../html/search.html"><i class="nav_icon_search"></i></a></li>
+            <li><a href="../html/more.html"><i class="nav_icon_more"></i></a></li>
+        </ul>
+    </nav>
 
     <div class="bigScreen">
         Please make your screen small
     </div>
 </body>
+
 </html>
