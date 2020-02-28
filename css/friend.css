@@ -10,6 +10,10 @@ main > div {
     width: 50px;
 }
 
+.chat_profile {
+    border-bottom: none;
+}
+
 .profile_img.my_img {
     width: 70px;
 }

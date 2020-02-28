@@ -18,11 +18,7 @@ body {
     font-weight: 600;
 }
 
-.header_search::before, .header_setting::before,
-.status_bar_timer::before, .status_bar_volume::before,
-.status_bar_wifi::before, .status_bar_battery::before,
-.nav_icon_friends::before, .nav_icon_chat::before,
-.nav_icon_search::before, .nav_icon_more::before{
+.icons > i::before, .nav_list i::before{
     content: "\f017";
 }
 

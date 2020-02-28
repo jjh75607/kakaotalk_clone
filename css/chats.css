@@ -1,0 +1,22 @@
+.chat_content {
+    position: absolute;
+    top: 13%;
+    left: 13%;
+}
+
+.chat_text, .chat_date {
+    font-size: 12px;
+    color: gray;
+}
+
+.chat_name {
+    display: block;
+    margin-bottom: 2px;
+}
+
+.chat_date {
+    opacity: 0.6;
+    position: absolute;
+    top: 20%;
+    right: 0px;
+}
