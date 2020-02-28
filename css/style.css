@@ -12,14 +12,14 @@ body {
     margin-bottom: 2em;
 }
 
-.header_colom {
+.header_column {
     display: inline;
     font-size: 25px;
     font-weight: 600;
 }
 
 .icons > i::before, .nav_list i::before,
-.find_icons i:nth-child(1)::before {
+.find_btns i:nth-child(1)::before {
     content: "\f017";
 }
 
@@ -34,7 +34,7 @@ body {
     opacity: 0.7;
 }
 
-.status_bar_colom {
+.status_bar_column {
     display: inline-block;
 }
 
