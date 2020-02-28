@@ -13,12 +13,13 @@ body {
 }
 
 .header_colom {
-    display: inline-block;
+    display: inline;
     font-size: 25px;
     font-weight: 600;
 }
 
-.icons > i::before, .nav_list i::before{
+.icons > i::before, .nav_list i::before,
+.find_icons i:nth-child(1)::before {
     content: "\f017";
 }
 
