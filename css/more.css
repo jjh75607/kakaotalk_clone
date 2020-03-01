@@ -6,3 +6,32 @@
 .profile_icons > .icons {
     margin-top: 20px;
 }
+
+.find_btns {
+    display: flex;
+}
+
+.find_btns > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1em;
+    margin-top: 1em;
+    font-size: 30px;
+}
+
+.find_btns .btn_title {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+#more_profile {
+    top: 12%;
+}
+
+#suggestion {
+    margin-bottom: 1em;
+    color: gray;
+    position: absolute;
+    top: -10px;
+}
